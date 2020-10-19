@@ -3,12 +3,11 @@ import fs from 'fs';
 import rimraf from 'rimraf';
 import shell from 'shelljs';
 import path from 'path';
-import nodePlop from 'node-plop';
+import nodePlop, { PlopGenerator as PG } from 'node-plop';
 
 import { BACKUPFILE_EXTENSION } from '../generators/plopfile';
 import { ComponentProptNames } from '../generators/component';
 import { ContainerProptNames } from '../generators/container';
-import { PlopGenerator as PG } from 'node-plop';
 
 interface PlopGenerator extends PG {
   runActions?: <T extends string | number>(

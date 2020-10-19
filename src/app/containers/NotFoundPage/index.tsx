@@ -1,19 +1,21 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { P } from './P';
-import { Link } from 'app/components/Link';
-import { NavBar } from 'app/containers/NavBar';
+import { P } from './styles';
 import { Helmet } from 'react-helmet-async';
-import { StyleConstants } from 'styles/StyleConstants';
+import { useTranslation } from 'react-i18next';
+import { translations } from '../../../locales/i18n';
 
 export function NotFoundPage() {
+  const { t } = useTranslation();
   return (
     <>
       <Helmet>
-        <title>404 Page Not Found</title>
-        <meta name="description" content="Page not found" />
+        <title>{t(translations.notFound.headerTitle)}</title>
+        <meta
+          name="description"
+          content={t(translations.notFound.headerContent)}
+        />
       </Helmet>
-      <NavBar />
       <Wrapper>
         <Title>
           4
@@ -22,15 +24,14 @@ export function NotFoundPage() {
           </span>
           4
         </Title>
-        <P>Page not found.</P>
-        <Link to={process.env.PUBLIC_URL + '/'}>Return to Home Page</Link>
+        <P>{t(translations.notFound.content)}</P>
       </Wrapper>
     </>
   );
 }
 
 const Wrapper = styled.div`
-  height: calc(100vh - ${StyleConstants.NAV_BAR_HEIGHT});
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +42,7 @@ const Wrapper = styled.div`
 const Title = styled.div`
   margin-top: -8vh;
   font-weight: bold;
-  color: ${p => p.theme.text};
+  color: black;
   font-size: 3.375rem;
 
   span {

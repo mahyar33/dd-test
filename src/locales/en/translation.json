@@ -1,19 +1,64 @@
 {
-  "routingFeature": {
-    "title": "Industry-standard Routing",
-    "description": "It's natural to want to add pages (e.g. `/about`) to your application, and routing makes this possible."
+  "headerTitle": "Home Page",
+  "headerContent": "my test homepage",
+  "notFound": {
+    "headerTitle": "404 Page Not Found",
+    "headerContent": "Page not found",
+    "content": "Page not found."
   },
-  "i18nFeature": {
-    "title": "i18n Internationalization & Pluralization",
-    "selectLanguage": "Select Language",
-    "description": "Scalable apps need to support multiple languages, easily add and support multiple languages. Change the language below to see how instantly it updates the page without refreshing."
+  "title": "The Tomato",
+  "content": {
+    "title": "Varieties",
+    "description": "There are around 7500 tomato varieties grown for various purposes. Heirloom tomatoes are becoming increasingly popular, particularly among home gardeners and organic producers, since they tend to produce more interesting and flavorful crops at the cost of disease resistance and productivity. In 1973, Israeli scientists developed the world's first long shelf-life commercial tomato varieties.",
+    "detail": "Tomato varieties are roughly divided into several categories, based mostly on shape and size."
   },
-  "feedbackFeature": {
-    "title": "Instant Feedback",
-    "description": "Enjoy the best DX and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page."
+  "tomatoInfo": {
+    "nutrition": {
+      "title": "Nutrition",
+      "description": "Tomatoes are now eaten freely throughout the world. They contain the carotene lycopene, one of the most powerful natural antioxidants. In some studies, lycopene, especially in cooked tomatoes, has been found to help prevent prostate cancer,[36] but other research contradicts this claim.[37] Lycopene has also been shown to improve the skin's ability to protect against harmful UV rays.[38] A study done by researchers at Manchester and Newcastle universities revealed that tomato can protect against sunburn and help keeping the skin looking youthful.[39] Natural genetic variation in tomatoes and their wild relatives has given a genetic plethora of genes that produce lycopene, carotene, anthocyanin, and other antioxidants. Tomato varieties are available with double the normal vitamin C (Doublerich), 40 times normal vitamin A(97L97), high levels of anthocyanin (resulting in blue tomatoes), and two to four times the normal amount of lycopene (numerous available cultivars with the high crimson gene)."
+    },
+    "healthBenefits": {
+      "title": "Health benefits",
+      "description": "Lycopene has also been shown to protect against oxidative damage in many epidemiological and experimental studies. In addition to its antioxidant activity, other metabolic effects of lycopene have also been demonstrated. The richest source of lycopene in the diet is tomato and tomato derived products.[40] Tomato consumption has been associated with decreased risk of breast cancer,[41] head and neck cancers[42] and might be strongly protective against neurodegenerative diseases.[43][44][45] Tomatoes, tomato sauces and puree are said to help lower  urinary tract symptoms (BPH) and may have anticancer properties.[46] Tomato  consumption might be beneficial for reducing cardiovascular risk associated with type 2 diabetes.[47]"
+    },
+    "storage": {
+      "title": "Storage",
+      "description": "Tomatoes keep best unwashed at room temperature and out of direct sunlight. It is not recommended to refrigerate as this can harm the flavor.[48] Tomatoes that are not yet ripe can be kept in a paper bag till ripening.[49] Storing stem down can prolong shelf life.[50]"
+    }
   },
-  "scaffoldingFeature": {
-    "title": "Quick Scaffolding",
-    "description": "Automate the creation of components, features, routes, selectors and sagas - and their tests - right from the CLI! Avoid fighting the glue of your code and focus on your app!"
+  "tomatoList": {
+    "globe": "\"Slicing\"/\"globe\" tomatoes",
+    "beefsteak": "Beefsteak tomatoes",
+    "oxheart": "Oxheart tomatoes",
+    "plum": "Plum tomatoes",
+    "pear": "Pear tomatoes",
+    "cherry": "Cherry tomatoes",
+    "grape": "Grape tomatoes",
+    "campari": "Campari tomatoes"
+  },
+  "tomatoEnergy": {
+    "title": "Red tomatoes, raw",
+    "description": "Nutritional value per 100 g (3.5 oz)",
+    "energy": "Energy",
+    "carbohydrates": "Carbohydrates",
+    "sugars": "Sugars",
+    "dietaryFiber": "Dietary fiber",
+    "fat": "Fat",
+    "protein": "Protein",
+    "water": "Water",
+    "vitaminAEquiv": "Vitamin A equiv.",
+    "luteinAndZeaxanthin": "lutein and zeaxanthin",
+    "vitaminC": "Vitamin C",
+    "vitaminE": "Vitamin E",
+    "potassium": "Potassium",
+    "info": "Percentages are relative to US recommendations for adults.Source: ",
+    "link": "USDA Nutrient Database"
+  },
+  "form": {
+    "title": "Keep up to date on the tomato",
+    "description": "Enter your name and email address below to receive weekly updates on the status of the tomato",
+    "name": "Name",
+    "email": "E-mail",
+    "submit": "Submit >"
   }
 }
